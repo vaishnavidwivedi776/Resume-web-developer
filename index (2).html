@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaishnavi Dwivedi — Full Stack Developer &amp; Graphic Designer</title>
+<meta name="description" content="Portfolio of Vaishnavi Dwivedi, Full Stack Developer, Graphic Designer and Content Creator based in Madhya Pradesh, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="top">
+  <a class="nav__mark" href="#top">VD<span class="nav__dot">.</span></a>
+  <nav class="nav__links">
+    <a href="#work">Work</a>
+    <a href="#skills">Stack</a>
+    <a href="#design">Design</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="nav__cta">Say hi</a>
+  </nav>
+  <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="main">
+
+  <!-- HERO : split identity -->
+  <section class="hero" id="hero">
+    <div class="hero__half hero__half--code">
+      <p class="hero__eyebrow mono">&lt;terminal&gt;</p>
+      <pre class="hero__code mono" id="typeTarget"></pre>
+      <div class="hero__tags">
+        <span class="chip chip--mono">MERN</span>
+        <span class="chip chip--mono">React.js</span>
+        <span class="chip chip--mono">Node.js</span>
+        <span class="chip chip--mono">REST APIs</span>
+      </div>
+    </div>
+    <div class="hero__seam" aria-hidden="true">
+      <svg viewBox="0 0 40 400" preserveAspectRatio="none">
+        <path d="M20 0 C 5 60, 35 120, 18 180 S 2 300, 22 400" />
+      </svg>
+    </div>
+    <div class="hero__half hero__half--sketch">
+      <p class="hero__eyebrow mono">// sketchbook</p>
+      <div class="hero__doodle" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="46" />
+          <path d="M20 70 Q 60 20 100 70" />
+        </svg>
+      </div>
+      <span class="chip chip--marker">Canva</span>
+      <span class="chip chip--marker">Branding</span>
+      <span class="chip chip--marker">Social Posts</span>
+    </div>
+
+    <div class="hero__center">
+      <p class="hero__kicker">Madhya Pradesh, India</p>
+      <h1 class="hero__name">Vaishnavi<br>Dwivedi</h1>
+      <p class="hero__role">Full Stack Developer <span class="hero__sep">·</span> Graphic Designer <span class="hero__sep">·</span> Content Creator</p>
+      <div class="hero__actions">
+        <a class="btn btn--solid" href="#contact">Let's build something</a>
+        <a class="btn btn--ghost" href="mailto:vaishnavidwivedi776@gmail.com">Email me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span>
+      <span>Canva</span><span>Poster Design</span><span>Personal Branding</span><span>Git &amp; GitHub</span>
+      <span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span>
+      <span>Canva</span><span>Poster Design</span><span>Personal Branding</span><span>Git &amp; GitHub</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section__head">
+      <span class="tag-label">about</span>
+      <h2>Two crafts, one build process.</h2>
+    </div>
+    <div class="about__body">
+      <p class="lede">Vaishnavi builds full stack web applications with the MERN stack, then designs the poster,
+      the banner or the LinkedIn post that gets people to actually look at them. Currently a third-year
+      Bachelor's student, she treats every module and every mockup as practice for the same goal: ship
+      something clear, useful and good-looking.</p>
+      <p class="objective">Career objective: to start her career as a Full Stack Developer, applying technical
+      knowledge, creativity and problem-solving while continuously learning new technologies and contributing
+      to impactful projects.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--dark" id="skills">
+    <div class="section__head">
+      <span class="tag-label tag-label--light">stack</span>
+      <h2>What she builds with.</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3 class="mono">Frontend</h3>
+        <ul>
+          <li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>React.js</li><li>Responsive Web Design</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3 class="mono">Backend</h3>
+        <ul>
+          <li>Node.js</li><li>Express.js</li><li>REST APIs</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3 class="mono">Database &amp; Tools</h3>
+        <ul>
+          <li>MongoDB</li><li>Git</li><li>GitHub</li>
+        </ul>
+      </div>
+      <div class="skill-card skill-card--learning">
+        <h3 class="mono">Currently learning</h3>
+        <ul>
+          <li>Data Structures &amp; Algorithms</li><li>Advanced React.js</li><li>REST APIs in depth</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / PROJECTS -->
+  <section class="section" id="work">
+    <div class="section__head">
+      <span class="tag-label">selected work</span>
+      <h2>From database to design file.</h2>
+    </div>
+    <div class="work-grid">
+      <article class="work-card work-card--dev">
+        <p class="work-card__type mono">full stack · MERN</p>
+        <h3>Full Stack Web Application</h3>
+        <p>A responsive, user-friendly web app built on MongoDB, Express.js, React.js and Node.js, with
+        interactive UI components wired to backend APIs for dynamic functionality.</p>
+        <div class="work-card__tags">
+          <span class="chip chip--mono">MongoDB</span>
+          <span class="chip chip--mono">Express</span>
+          <span class="chip chip--mono">React</span>
+          <span class="chip chip--mono">Node</span>
+        </div>
+      </article>
+      <article class="work-card work-card--design">
+        <p class="work-card__type mono">graphic design</p>
+        <h3>Graphic Design Portfolio</h3>
+        <p>Posters, social media creatives, advertisements, banners and branding materials designed in
+        Canva, including visual content built for LinkedIn to support brand storytelling.</p>
+        <div class="work-card__tags">
+          <span class="chip chip--marker">Posters</span>
+          <span class="chip chip--marker">Banners</span>
+          <span class="chip chip--marker">Branding</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- DESIGN + CONTENT -->
+  <section class="section section--paper" id="design">
+    <div class="section__head">
+      <span class="tag-label">design &amp; content</span>
+      <h2>Visuals that carry the story.</h2>
+    </div>
+    <div class="content-grid">
+      <div class="content-card">
+        <h3>Graphic design</h3>
+        <p>Poster design, banner design, social media post design, visiting card design and brand
+        advertisement design — all produced end-to-end in Canva.</p>
+      </div>
+      <div class="content-card">
+        <h3>Content creation</h3>
+        <p>LinkedIn content, social media content, creative visual storytelling and personal branding,
+        shaping how a project or a person shows up online.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION TIMELINE -->
+  <section class="section" id="education">
+    <div class="section__head">
+      <span class="tag-label">education</span>
+      <h2>Still in the classroom, already in production.</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline__item">
+        <p class="timeline__year mono">2023 — Present</p>
+        <h3>Bachelor's Degree (Pursuing)</h3>
+        <p>Maharaja Chhatrasal Bundelkhand University — 3rd year</p>
+      </div>
+      <div class="timeline__item">
+        <p class="timeline__year mono">2022 — 2023</p>
+        <h3>Class 12, Mathematics Stream</h3>
+        <p>Higher Secondary Education</p>
+      </div>
+      <div class="timeline__item">
+        <p class="timeline__year mono">2020 — 2021</p>
+        <h3>Class 10</h3>
+        <p>ICSE Board</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOFT SKILLS + LANGUAGES -->
+  <section class="section section--dark" id="extras">
+    <div class="extras-grid">
+      <div>
+        <span class="tag-label tag-label--light">soft skills</span>
+        <div class="soft-tags">
+          <span class="chip chip--outline">Problem Solving</span>
+          <span class="chip chip--outline">Communication</span>
+          <span class="chip chip--outline">Teamwork</span>
+          <span class="chip chip--outline">Time Management</span>
+          <span class="chip chip--outline">Creativity</span>
+          <span class="chip chip--outline">Quick Learner</span>
+          <span class="chip chip--outline">Adaptability</span>
+        </div>
+      </div>
+      <div>
+        <span class="tag-label tag-label--light">languages</span>
+        <div class="soft-tags">
+          <span class="chip chip--outline">English</span>
+          <span class="chip chip--outline">Hindi</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="section__head">
+      <span class="tag-label">contact</span>
+      <h2>Have a project or a role in mind?</h2>
+    </div>
+    <div class="contact__grid">
+      <a class="contact__item" href="mailto:vaishnavidwivedi776@gmail.com">
+        <span class="mono">Email</span>
+        <strong>vaishnavidwivedi776@gmail.com</strong>
+      </a>
+      <a class="contact__item" href="tel:+919589161714">
+        <span class="mono">Phone</span>
+        <strong>+91 9589161714</strong>
+      </a>
+      <div class="contact__item">
+        <span class="mono">Location</span>
+        <strong>Madhya Pradesh, India</strong>
+      </div>
+      <a class="contact__item" href="#" id="linkedinLink">
+        <span class="mono">LinkedIn</span>
+        <strong>Add your profile URL</strong>
+      </a>
+      <a class="contact__item" href="#" id="githubLink">
+        <span class="mono">GitHub</span>
+        <strong>Add your profile URL</strong>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Designed &amp; built for Vaishnavi Dwivedi.</p>
+  <a href="#top" class="footer__top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
